@@ -11,6 +11,8 @@ Every claim is backed by a script in [`scripts/`](scripts) and its saved output 
 | # | Severity | Area | Title |
 |---|---|---|---|
 | 25 | major | app | [Since Perps Arena closed on 9 Nov, every documented route to perps collateral is dead](feedback/25-no-route-to-perps-collateral-since-arena-closed.md) |
+| 28 | major | SDK | [`quotePerpClose` (new in 0.33.0) reports closes as fillable that revert on chain: 15 of 33 real positions](feedback/28-quoteperpclose-reports-fillable-closes-that-revert.md) |
+| 29 | normal | SDK | [`quotePerpClose` caps closes at the resting-price band; taker closes fill past it](feedback/29-quoteperpclose-band-understates-fillable-close.md) |
 | 22 | normal | docs | [Documented order-ID formats (ULID, 0x…) rejected; only decimal works](feedback/22-documented-order-id-formats-rejected.md) |
 | 23 | normal | API | [WS error frames omit the request id](feedback/23-ws-error-frames-omit-request-id.md) |
 | 24 | normal | API | [Negative `since` on /volume gives a misleading 40-day error](feedback/24-volume-negative-since-misleading-error.md) |

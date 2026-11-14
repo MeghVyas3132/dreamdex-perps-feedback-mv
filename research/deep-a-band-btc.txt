@@ -1,0 +1,6 @@
+quote {"priceable":true,"asOfBlock":"50261161","isBid":true,"quantity":"5391722000","referencePrice":"65712382701336800500000","maxBandBps":"250","bandBps":"250","limitPrice":"67355100000000000000000","fillableSize":"174484000","averagePrice":"65948339448889296439788","bandToFillAll":null,"fillableSizeAtMaxBand":"174484000","oppositeSideEmpty":false,"truncated":false,"lotSize":"1000"}
+limit = quote.limitPrice px 67355100000000000000000 -> filled 174484000 of 5391722000 (quote said 174484000 at max band) worstFill 65993300000000000000000 revert -
+limit beyond band by 50 bps px 67691800000000000000000 -> filled 174484000 of 5391722000 (quote said 174484000 at max band) worstFill 65993300000000000000000 revert -
+limit beyond band by 100 bps px 68028600000000000000000 -> filled 5391722000 of 5391722000 (quote said 174484000 at max band) worstFill 67777000000000000000000 revert -
+limit beyond band by 300 bps px 69375700000000000000000 -> filled 5391722000 of 5391722000 (quote said 174484000 at max band) worstFill 67777000000000000000000 revert -
+limit beyond band by 1000 bps px 74090600000000000000000 -> filled 5391722000 of 5391722000 (quote said 174484000 at max band) worstFill 67777000000000000000000 revert -

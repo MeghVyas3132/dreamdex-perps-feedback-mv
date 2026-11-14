@@ -1,0 +1,4 @@
+# historical replay (head ~50262039) of the ETH close for 0x47537e3a… at block 50259318
+top EXECUTION_REVERTED 0x6ffc9258 | deepest to 0x81f9eb88c95a52b4d3ea47a73ac394b8a547d443 EXECUTION_REVERTED 0x6ffc9258 SelfMatchCancelTaker 
+# BTC 0xfe4ce756 full close at block 50259224
+top EXECUTION_REVERTED 0x7ea61260 | deepest to 0x81f9eb88c95a52b4d3ea47a73ac394b8a547d443 EXECUTION_REVERTED 0x7ea61260 InsufficientMarginForOrder 
