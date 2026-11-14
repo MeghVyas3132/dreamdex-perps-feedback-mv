@@ -14,6 +14,8 @@ Every claim is backed by a script in [`scripts/`](scripts) and its saved output 
 | 22 | normal | docs | [Documented order-ID formats (ULID, 0x…) rejected; only decimal works](feedback/22-documented-order-id-formats-rejected.md) |
 | 23 | normal | API | [WS error frames omit the request id](feedback/23-ws-error-frames-omit-request-id.md) |
 | 24 | normal | API | [Negative `since` on /volume gives a misleading 40-day error](feedback/24-volume-negative-since-misleading-error.md) |
+| 26 | normal | SDK | [`getVenueHealth()` (new in 0.33.0) reports ok while perp marks are dead](feedback/26-getvenuehealth-ok-while-perp-marks-dead.md) |
+| 27 | normal | SDK | [7,203 chain-wide `placeOrderFor` grants left by perp TP/SL, still issued after the 0.33.0 fix](feedback/27-stop-orders-leave-chain-wide-placeorderfor-grants.md) |
 
 ### Independently reproduced, overlapping earlier public reports: [`feedback-overlap/`](feedback-overlap)
 

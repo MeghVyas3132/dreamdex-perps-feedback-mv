@@ -1,0 +1,6 @@
+owner/registry pairs checked: 150 globally approved: 150 (first stop before 0.33.0: 150 after: 0 )
+0x5b655a87cbbe18b4ba02fb605e8dc18c99e1a93f -> registry 0x52e2ccebaec9332672c247e9a90aa3d61fb615ef firstStop 2026-10-06T12:07:01.000Z
+0xe2ce6488091393c30b42f12a0f75667f2a36efb7 -> registry 0x52e2ccebaec9332672c247e9a90aa3d61fb615ef firstStop 2026-10-06T12:24:55.000Z
+0x5b655a87cbbe18b4ba02fb605e8dc18c99e1a93f -> registry 0x44bfa5b28684e8d2156d15b85902da18f02b3a34 firstStop 2026-10-06T13:59:23.000Z
+0x6c56325a35be8cd161e0dec491f1f72c9dfeb46c -> registry 0x52e2ccebaec9332672c247e9a90aa3d61fb615ef firstStop 2026-10-06T14:18:20.000Z
+0x6c56325a35be8cd161e0dec491f1f72c9dfeb46c -> registry 0x44c24cd26cf41037c6ebf337948a6c9bbc0ee055 firstStop 2026-10-06T14:20:21.000Z

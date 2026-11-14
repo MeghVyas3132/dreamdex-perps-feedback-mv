@@ -1,0 +1,4 @@
+distinct stop owners: 1716 first stop after 0.33.0: 4
+of 4 new owners checked, globally approved: 1
+ 0x2174ccbf314d593e486a2d6b64e76b9a60372c8e registry 0x1c3fabc41871ec838960f80329dcd920fec241c9 firstStop 2026-11-12T12:46:49.000Z tx 0x6d24d0f918030f22a3af2a015754932aa4243d4293562555db8bcad209f38a32
+owner tx 48333840 0x723484e974729817d84334726ce1ece2755b084c607b98a4ab6b90ce24c395a1 -> OperatorPermissionsRegistry sel 0x7f1e31ce (setOperatorApprovalGlobal); stop tx 48333846 0x6d24d0f918030f22a3af2a015754932aa4243d4293562555db8bcad209f38a32 -> registry 0x1c3fabc4... sel 0xc31bb10e

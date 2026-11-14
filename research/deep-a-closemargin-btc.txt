@@ -1,0 +1,7 @@
+block 50256618n pos {"size":"11839000","avgEntryPrice":"75605715567193175099246","entryFundingIndex":"7968742048280142594966861860269665906250","lastUpdatedTimestampNs":"0"}
+account {"unlockedCollateralBalance":"5291517296009402617171","lockedCollateral":"826911189800000000000","activePerpPools":["0xD6Cb1DD58580B84D76068aC21594219ce03aeddf","0x4181dd08E73BbCdd1Ba3E615A18f6abD941b94C0","0x7058579F3248559963f79AdB937c6De9f953E060","0xB483ec1fb34996638677c20ab087b16F1896FA53","0x3D2A99fE1e2BdEaA25024515A2D2202DAF9531aD","0x1Be21287cfB865a7c462Ff3c4f275E70BcccefE4"],"equity":"1432327066385040457606","withdrawable":"1291517296009402617171","imReq":"1170303056463749770576","mmReq
+quote {"priceable":true,"asOfBlock":"50256630","isBid":false,"quantity":"11839000","referencePrice":"65875903074557895500000","maxBandBps":"250","bandBps":"250","limitPrice":"64229100000000000000000","fillableSize":"11839000","averagePrice":"66051445611960469634259","bandToFillAll":"0","fillableSizeAtMaxBand":"11839000","oppositeSideEmpty":false,"truncated":false,"lotSize":"1000"}
+best       66059400000000000000000 full close IOC: InsufficientMarginForOrder | half: InsufficientMarginForOrder
+best±0.5%  65729100000000000000000 full close IOC: InsufficientMarginForOrder | half: InsufficientMarginForOrder
+best±2%    64738200000000000000000 full close IOC: InsufficientMarginForOrder | half: InsufficientMarginForOrder
+quoteLimit 64229100000000000000000 full close IOC: InsufficientMarginForOrder | half: InsufficientMarginForOrder
