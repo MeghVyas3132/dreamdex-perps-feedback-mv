@@ -1,0 +1,175 @@
+BTC mark 65696819289776511000000
+0x0007d05e BID pos 2134000 max 104529000 lim initialMargin | at: OK [
+ true,
+ "21490456845871639848268"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0007d05e ASK pos 2134000 max 106471000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x000fe7f8 BID pos -13000 max 4592000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x000fe7f8 ASK pos -13000 max 4572000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00106168 BID pos 5956000 max 71452000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00106168 ASK pos 5956000 max 77211000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00148333 BID pos -26000 max 29078000 lim collateral | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: transfer amount exceeds 
+0x00148333 ASK pos -26000 max 28891000 lim collateral | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: transfer amount exceeds 
+0x0016ceae BID pos 7429000 max 59477000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0016ceae ASK pos 7429000 max 66676000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00216b24 BID pos 19000 max 121611000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602253"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00216b24 ASK pos 19000 max 121338000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x002c4bd2 BID pos 91000 max 29081000 lim initialMargin | at: OK [
+ true,
+ "17007898035960218805591"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x002c4bd2 ASK pos 91000 max 28571000 lim initialMargin | at: OK [
+ true,
+ "8946670875749144749404"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x002da234 BID pos 8137000 max 54741000 lim initialMargin | at: OK [
+ true,
+ "8946670875749144749404"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x002da234 ASK pos 8137000 max 62305000 lim initialMargin | at: OK [
+ true,
+ "8946670875749144749404"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x003129c0 BID pos -143000 max 25457000 lim initialMargin | at: OK [
+ true,
+ "8946670875749144749404"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x003129c0 ASK pos -143000 max 24781000 lim initialMargin | at: OK [
+ true,
+ "8946670875749144749404"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x003c99db BID pos -13000 max 24647000 lim initialMargin | at: OK [
+ true,
+ "21490456845871639848292"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x003c99db ASK pos -13000 max 24636000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x004c1cec BID pos 26000 max 24706000 lim initialMargin | at: OK [
+ true,
+ "16325368505232965395836"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x004c1cec ASK pos 26000 max 25315000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x004c4e71 BID pos 2233000 max 47549000 lim initialMargin | at: OK [
+ true,
+ "16325368505232965395839"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x004c4e71 ASK pos 2233000 max 50201000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x004d8202 BID pos 13000 max 26791000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602304"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x004d8202 ASK pos 13000 max 27334000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x004e0448 BID pos 2179000 max 45436000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602304"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x004e0448 ASK pos 2179000 max 48158000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x0059e0b8 BID pos 10164000 max 35371000 lim initialMargin | at: OK [
+ true,
+ "16399155481527803602306"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0059e0b8 ASK pos 10164000 max 46032000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00615734 BID pos -13000 max 23732000 lim initialMargin | at: OK [
+ true,
+ "10533090866088166188447"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00615734 ASK pos -13000 max 24691000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x0063634a BID pos 26000 max 27115000 lim initialMargin | at: OK [
+ true,
+ "10533090866088166188450"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0063634a ASK pos 26000 max 28650000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x0071809b BID pos 2224000 max 99542000 lim initialMargin | at: OK [
+ true,
+ "16306921761159255844274"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0071809b ASK pos 2224000 max 105258000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x0079f50a BID pos 13000 max 21401000 lim initialMargin | at: OK [
+ true,
+ "16306921761159255844281"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x0079f50a ASK pos 13000 max 23035000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x007b5d30 BID pos 2103000 max 100669000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601406"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x007b5d30 ASK pos 2103000 max 106055000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x008d0038 BID pos -12000 max 117089000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: ins | +lot: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: insufficient allowance   <<< MAX REVERTS
+0x008d0038 ASK pos -12000 max 121710000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: ins | +lot: REVERT The contract function "placeOrder" reverted with the following reason: | ERC20: insufficient allowance   <<< MAX REVERTS
+0x009eb6c1 BID pos -78000 max 24908000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601409"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x009eb6c1 ASK pos -78000 max 26773000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x009efefc BID pos 11190000 max 26927000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601409"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x009efefc ASK pos 11190000 max 39127000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601410"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x009f504d BID pos 2176000 max 98901000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601410"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x009f504d ASK pos 2176000 max 105122000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601410"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00a223b3 BID pos -39000 max 25885000 lim initialMargin | at: OK [
+ true,
+ "10680664818677842601410"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00a223b3 ASK pos -39000 max 27942000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00a78249 BID pos 5949000 max 68688000 lim initialMargin | at: OK [
+ true,
+ "16989451291886509254100"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00a78249 ASK pos 5949000 max 77003000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00a95f45 BID pos 39000 max 26606000 lim initialMargin | at: OK [
+ true,
+ "8835990411306887439830"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00a95f45 ASK pos 39000 max 28714000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00aabf6b BID pos 9388000 max 43948000 lim initialMargin | at: OK [
+ true,
+ "8854437155380596991450"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00aabf6b ASK pos 9388000 max 55155000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00ae237a BID pos 5913000 max 67979000 lim initialMargin | at: OK [
+ true,
+ "8854437155380596991450"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00ae237a ASK pos 5913000 max 76633000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS
+0x00ae73fa BID pos -13000 max 25397000 lim initialMargin | at: OK [
+ true,
+ "16989451291886509254110"
+] | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260 
+0x00ae73fa ASK pos -13000 max 27348000 lim initialMargin | at: REVERT The contract function "placeOrder" reverted. data=0x | +lot: REVERT The contract function "placeOrder" reverted with the following signature: | 0x7ea61260 data=0x7ea61260  <<< MAX REVERTS

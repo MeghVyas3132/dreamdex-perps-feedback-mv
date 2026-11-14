@@ -1,0 +1,24 @@
+2026-11-14T17:41:13.582Z +1744ms >> {"operation":"subscribe","channel":"trades","params":{"symbols":["SOMI:USDso"]}}
+2026-11-14T17:41:14.043Z +2203ms << {"channel":"trades","type":"subscribed","symbols":["SOMI:USDso"]}
+2026-11-14T17:41:14.171Z +2331ms << {"channel":"trades","type":"snapshot","symbol":"SOMI:USDso","trades":[{"id":"1794677959651-0","price":"0.1475","quantity":"25","side":"sell","timestamp":1794677959446},{"id":"1794677969628-0","price":"0.1476","quantity":"25","side":"sell","timestamp":1794677969446},{"id":"1794677979641-0","price":"0.1475","quantity":"25","side":"sell","timestamp":1794677979447},{"id":"1794677989584-0","price":"0.1477","quantity":"25","side":"sell","timestamp":1794677989446},{"
+2026-11-14T17:41:14.386Z +2546ms >> {"operation":"subscribe","channel":"trades","params":{"symbols":["SOMI:USDso"]}}
+2026-11-14T17:41:14.780Z +2940ms << {"channel":"trades","type":"subscribed","symbols":["SOMI:USDso"]}
+2026-11-14T17:41:14.793Z +2953ms << {"channel":"trades","type":"snapshot","symbol":"SOMI:USDso","trades":[{"id":"1794677959651-0","price":"0.1475","quantity":"25","side":"sell","timestamp":1794677959446},{"id":"1794677969628-0","price":"0.1476","quantity":"25","side":"sell","timestamp":1794677969446},{"id":"1794677979641-0","price":"0.1475","quantity":"25","side":"sell","timestamp":1794677979447},{"id":"1794677989584-0","price":"0.1477","quantity":"25","side":"sell","timestamp":1794677989446},{"
+2026-11-14T17:41:15.188Z +3348ms >> {"operation":"unsubscribe","channel":"trades","params":{"symbols":["SOMI:USDso"]}}
+2026-11-14T17:41:15.581Z +3741ms << {"channel":"trades","type":"unsubscribed","symbols":["SOMI:USDso"]}
+2026-11-14T17:41:15.989Z +4149ms >> {"operation":"unsubscribe","channel":"trades","params":{"symbols":["SOMI:USDso"]}}
+2026-11-14T17:41:16.379Z +4539ms << {"type":"error","errorName":"not_subscribed","message":"not subscribed to channel"}
+2026-11-14T17:41:16.791Z +4951ms >> {"operation":"subscribe","channel":"order","params":{"symbol":"SOMI:USDso","orderId":"0xYourOrderId"}}
+2026-11-14T17:41:17.189Z +5349ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: order"}
+2026-11-14T17:41:17.593Z +5753ms >> {"operation":"subscribe","channel":"order","params":{"symbol":"SOMI:USDso","orderId":"0x1"}}
+2026-11-14T17:41:17.989Z +6149ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: order"}
+2026-11-14T17:41:18.394Z +6554ms >> {"operation":"subscribe","channel":"order","params":{"symbol":"SOMI:USDso","orderId":"123456789"}}
+2026-11-14T17:41:18.803Z +6963ms << {"channel":"order","type":"subscribed","symbol":"SOMI:USDso","orderId":"123456789"}
+2026-11-14T17:41:19.195Z +7355ms >> {"operation":"subscribe","channel":"order","params":{"symbol":"SOMI:USDso","orderId":"01KC1F8N2NBP5GEYKE66CRJ34A"}}
+2026-11-14T17:41:19.588Z +7748ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: order"}
+2026-11-14T17:41:19.996Z +8156ms >> {"id":20,"operation":"getMarketSymbolOrder","params":{"symbol":"SOMI:USDso","id":"01KC1F8N2NBP5GEYKE66CRJ34A"}}
+2026-11-14T17:41:20.502Z +8662ms << {"id":20,"status":400,"errorName":"invalid_order_id","payload":{"description":"invalid order ID: 01KC1F8N2NBP5GEYKE66CRJ34A","name":"invalid_order_id","status":400}}
+2026-11-14T17:41:20.799Z +8959ms >> {"id":21,"operation":"prepareOrder","params":{"symbol":"SOMI:USDso"},"payload":{"type":"limit","side":"buy","price":"1.50","amount":"100","walletAddress":"0xaAaAaAaAaAbBbBbBbBbBcCcCcCcCcCcCdDdDdDdDdD"}}
+2026-11-14T17:41:21.216Z +9376ms << {"id":21,"status":401,"errorName":"unauthorized","payload":{"description":"authentication required","name":"unauthorized","status":401}}
+2026-11-14T17:41:23.102Z +11262ms CLIENT-CLOSE sending close 1000
+2026-11-14T17:41:23.505Z +11665ms CLOSE 1000 bye

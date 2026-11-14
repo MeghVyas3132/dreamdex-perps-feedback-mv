@@ -1,0 +1,41 @@
+2026-11-14T17:40:37.155Z +1660ms OPEN wss://stg.api.dreamdex.io/v0/ws/public
+2026-11-14T17:40:37.157Z +1661ms >> {"operation":"ping"}
+2026-11-14T17:40:37.571Z +2075ms << {"operation":"pong","serverTimestamp":1794678037428}
+2026-11-14T17:40:37.860Z +2364ms >> {"id":1,"operation":"getMarkets"}
+2026-11-14T17:40:38.292Z +2796ms << {"id":1,"status":200,"payload":{"markets":[{"base":"0x4e85DC48a70DA1298489d5B6FC2492767d98f384","baseDecimals":8,"contract":"0x3605f28aA7C50e7441211e77Cb0762d49539326C","kind":"spot","lotSize":"0.00001","minQuantity":"0.0001","quote":"0x9c32F3827A1a99f0cf9B213de8b53eC3d57bb171","quoteDecimals":18,"stopRegistry":"0x53d5B2b0791b3992a1F3b5e0b0277Ee2e08B7aaD","symbol":"WBTC:USDso","tickSize":"0.1"},{"base":"0x4d8E02BBfCf205828A8352Af4376b165E123D7b0","baseDecimals":18,"contract":"0xD180195da5459C7a0DEA188ed61216ec43682b50","kind":"spot","lotSize":"0.0001","minQu
+2026-11-14T17:40:38.561Z +3065ms >> {"id":2,"operation":"GETMARKETS"}
+2026-11-14T17:40:39.023Z +3527ms << {"id":2,"status":200,"payload":{"markets":[{"base":"0x28f34DeFd2b4CB48d9eE6d89f2Be4Bc601694c00","baseDecimals":18,"contract":"0x259fD6559214dd5aD3752322426eA9F9fABEFff4","kind":"spot","lotSize":"0.01","minQuantity":"1","quote":"0x9c32F3827A1a99f0cf9B213de8b53eC3d57bb171","quoteDecimals":18,"stopRegistry":"0xEb97349Aa62A68507c0bE535eD88B0d028a47E1e","symbol":"SOMI:USDso","tickSize":"0.0001"},{"base":"0x4e85DC48a70DA1298489d5B6FC2492767d98f384","baseDecimals":8,"contract":"0x3605f28aA7C50e7441211e77Cb0762d49539326C","kind":"spot","lotSize":"0.00001","minQuanti
+2026-11-14T17:40:39.263Z +3767ms >> {"id":3,"operation":"invalidOp"}
+2026-11-14T17:40:39.678Z +4182ms << {"type":"error","errorName":"unknown_operation","message":"unknown operation: invalidOp","id":3}
+2026-11-14T17:40:39.964Z +4468ms >> not json
+2026-11-14T17:40:40.378Z +4882ms << {"type":"error","errorName":"invalid_request","message":"invalid JSON message"}
+2026-11-14T17:40:40.667Z +5171ms >> {"id":4}
+2026-11-14T17:40:41.081Z +5585ms << {"type":"error","errorName":"invalid_request","message":"missing operation field","id":4}
+2026-11-14T17:40:41.369Z +5873ms >> {"id":5,"operation":"getMarketSymbolTickers","params":{"symbol":"BTC-PERP"}}
+2026-11-14T17:40:41.791Z +6295ms << {"type":"error","errorName":"unknown_operation","message":"unknown operation: getMarketSymbolTickers","id":5}
+2026-11-14T17:40:42.071Z +6575ms >> {"id":6,"operation":"getMarketSymbolTickers"}
+2026-11-14T17:40:42.482Z +6986ms << {"type":"error","errorName":"unknown_operation","message":"unknown operation: getMarketSymbolTickers","id":6}
+2026-11-14T17:40:42.773Z +7277ms >> {"id":7,"operation":"getOrderbooks","params":{"symbols":"BTC-PERP"}}
+2026-11-14T17:40:43.218Z +7722ms << {"id":7,"status":400,"errorName":"invalid_param","payload":{"context":{"invalid_symbols":["BTC-PERP"]},"description":"unknown market symbols: BTC-PERP","name":"invalid_param","status":400}}
+2026-11-14T17:40:43.475Z +7979ms >> {"id":8,"operation":"subscribe","channel":"orderbook","params":{"symbol":"BTC-PERP"}}
+2026-11-14T17:40:43.895Z +8399ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: orderbook"}
+2026-11-14T17:40:44.177Z +8681ms >> {"id":9,"operation":"subscribe","channel":"nope","params":{"symbol":"SOMI:USDso"}}
+2026-11-14T17:40:44.589Z +9093ms << {"type":"error","errorName":"unknown_channel","message":"unknown channel: nope"}
+2026-11-14T17:40:44.879Z +9383ms >> {"id":10,"operation":"unsubscribe","channel":"trades","params":{"symbol":"SOMI:USDso"}}
+2026-11-14T17:40:45.294Z +9798ms << {"type":"error","errorName":"unsubscribe_failed","message":"unsubscription failed"}
+2026-11-14T17:40:45.580Z +10084ms >> {"id":11,"operation":"subscribe","channel":"trades","params":{"symbol":"SOMI:USDso"}}
+2026-11-14T17:40:45.992Z +10496ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: trades"}
+2026-11-14T17:40:46.281Z +10785ms >> {"id":11,"operation":"subscribe","channel":"trades","params":{"symbol":"SOMI:USDso"}}
+2026-11-14T17:40:46.702Z +11206ms << {"type":"error","errorName":"subscription_failed","message":"subscription failed to channel: trades"}
+2026-11-14T17:40:46.983Z +11487ms >> {"id":12,"operation":"unsubscribe","channel":"trades","params":{"symbol":"SOMI:USDso"}}
+2026-11-14T17:40:47.395Z +11899ms << {"type":"error","errorName":"unsubscribe_failed","message":"unsubscription failed"}
+2026-11-14T17:40:47.683Z +12187ms >> {"id":"str","operation":"getCurrencies"}
+2026-11-14T17:40:48.097Z +12601ms << {"type":"error","errorName":"invalid_request","message":"invalid JSON request"}
+2026-11-14T17:40:48.385Z +12889ms >> {"id":-1,"operation":"getCurrencies"}
+2026-11-14T17:40:48.800Z +13304ms << {"id":-1,"status":200,"payload":{"currencies":[{"code":"SOMI","decimals":18,"id":"0x28f34DeFd2b4CB48d9eE6d89f2Be4Bc601694c00","name":"Somnia Token"},{"code":"USDso","decimals":18,"id":"0x9c32F3827A1a99f0cf9B213de8b53eC3d57bb171","name":"USDso"},{"code":"WBTC","decimals":8,"id":"0x4e85DC48a70DA1298489d5B6FC2492767d98f384","name":"Wrapped Bitcoin"},{"code":"WETH","decimals":18,"id":"0x4d8E02BBfCf205828A8352Af4376b165E123D7b0","name":"Wrapped ETH"}]}}
+2026-11-14T17:40:49.086Z +13590ms >> {"id":1e+30,"operation":"getCurrencies"}
+2026-11-14T17:40:49.497Z +14001ms << {"type":"error","errorName":"invalid_request","message":"invalid JSON request"}
+2026-11-14T17:40:49.787Z +14291ms >> {"id":13,"operation":"getMarketSymbolCandles","params":{"symbol":"SOMI:USDso","interval":"7m"}}
+2026-11-14T17:40:50.210Z +14714ms << {"id":13,"status":400,"errorName":"invalid_interval","payload":{"description":"unsupported candle interval","name":"invalid_interval","status":400}}
+2026-11-14T17:40:53.488Z +17992ms DONE 
+2026-11-14T17:40:53.913Z +18417ms CLOSE 1006 

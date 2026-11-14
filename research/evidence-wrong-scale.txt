@@ -1,0 +1,5 @@
+{
+  '0.1 SOL @9dec (correct) => OK': 20,
+  '0.1 SOL @18dec (wrong) => Error(string): ERC20: insufficient allowance': 18,
+  '0.1 SOL @18dec (wrong) => Error(string): ERC20: transfer amount exceeds balance': 2
+}

@@ -1,0 +1,1 @@
+{"name":"dreamdex-perps-bounty","private":true,"type":"module","dependencies":{"@somnia-chain/markets-sdk":"^0.33.0","viem":"^2.57.19"}}

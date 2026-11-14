@@ -1,0 +1,34 @@
+UTC 2026-11-14T18:10:33.858Z
+getVenueHealth: {"status":"ok","reason":null,"checks":[{"id":"indexer","status":"ok","detail":"Indexer is 0 s behind the chain."},{"id":"chain","status":"ok","detail":"Chain RPC answers at block 50254142."},{"id":"priceFeed","status":"ok","detail":"Price feed wrote a price 0 s ago."}]}
+T581A66   0x009e2e1fc4f571eeedc42e10830ae24202843a50 {"markPriceOk":true,"markPrice":"66386100000000000000000","openInterest":"0","indexUpdatedAt":"1794679834"}
+T481A66   0x266e65f88d6cbf998014332ed88de04ee1c7f8ab {"markPriceOk":true,"markPrice":"1879580000000000000000","openInterest":"0","indexUpdatedAt":"1794679835"}
+T381A66   0x9174f19d30624180c98221bf714c2704078e2628 {"markPriceOk":true,"markPrice":"66422100000000000000000","openInterest":"0","indexUpdatedAt":"1794679835"}
+T281A66   0xaa1fdee96042333970950728bbb79afbc6af1c98 {"markPriceOk":true,"markPrice":"1020300000000000000","openInterest":"0","indexUpdatedAt":"1794679836"}
+T181A66   0x2886a8fc3c18ddf019a23623e5f221824e830fe2 {"markPriceOk":true,"markPrice":"66466000000000000000000","openInterest":"0","indexUpdatedAt":"1794679836"}
+T5C1033   0x4b4661704e202343b09410a8f9c463a00bd6f795 {"markPriceOk":true,"markPrice":"69198400000000000000000","openInterest":"0","indexUpdatedAt":"1794679837"}
+T4C1033   0xc0bf4c3477acfbede2706e1abd3ae48b3b2c9441 {"markPriceOk":true,"markPrice":"1958150000000000000000","openInterest":"0","indexUpdatedAt":"1794679838"}
+T3C1033   0xc8e2aa282ea2f14df2d684e3679ce55bac5a687d {"markPriceOk":true,"markPrice":"69196100000000000000000","openInterest":"0","indexUpdatedAt":"1794679838"}
+T2C1033   0xed8992acabf4fd882eaf5f37c90a9811139f052a {"markPriceOk":true,"markPrice":"1020600000000000000","openInterest":"0","indexUpdatedAt":"1794679839"}
+T1C1033   0x8d3e148b66f857b3e09a80bf2575a08f33b9a9c9 {"markPriceOk":true,"markPrice":"66515500000000000000000","openInterest":"0","indexUpdatedAt":"1794679840"}
+T580E00   0x8dae1b264d96c769794e10dd1b1af35d1a289769 {"markPriceOk":true,"markPrice":"69234100000000000000000","openInterest":"0","indexUpdatedAt":"1794679840"}
+T480E00   0xe4a8310512ed63d736b07012b80c4c9ab3608f5f {"markPriceOk":true,"markPrice":"1958160000000000000000","openInterest":"0","indexUpdatedAt":"1794679840"}
+T380E00   0x2027cc8e64fbda59709d075291f8744ed3e6b04c {"markPriceOk":true,"markPrice":"69243400000000000000000","openInterest":"0","indexUpdatedAt":"1794679841"}
+T280E00   0x950b3efb4c1207a0783a16af7cac9dad2ad05d99 {"markPriceOk":true,"markPrice":"1022900000000000000","openInterest":"0","indexUpdatedAt":"1794679841"}
+T180E00   0x534b3837f72a7aee73a3ba3774f8c106b2d77846 {"markPriceOk":true,"markPrice":"67240600000000000000000","openInterest":"0","indexUpdatedAt":"1794679842"}
+T5AADFF   0x0484377953ba32fa68c05649e0765480efc6eae1 {"markPriceOk":true,"markPrice":"69241300000000000000000","openInterest":"0","indexUpdatedAt":"1794679842"}
+T4AADFF   0x5bf5e1b7f8d36ac702fe54ae67a1472aaf7e2b15 {"markPriceOk":true,"markPrice":"1957170000000000000000","openInterest":"0","indexUpdatedAt":"1794679843"}
+T3AADFF   0x2ee9ac8f95190d0a2bb53e702da4c0437cfd90ef {"markPriceOk":true,"markPrice":"69247200000000000000000","openInterest":"0","indexUpdatedAt":"1794679843"}
+T2AADFF   0xa1f10466f2415577c3778dc84b743f980f8a68a9 {"markPriceOk":true,"markPrice":"1023300000000000000","openInterest":"0","indexUpdatedAt":"1794679844"}
+T1AADFF   0xf312ecc5fc46af902f7d319abb366ad30cb9008f {"markPriceOk":true,"markPrice":"69242200000000000000000","openInterest":"0","indexUpdatedAt":"1794679844"}
+LOADTEST  0x736850b162802db2b54d766c686e65e1b31eb954 {"markPriceOk":false,"markPrice":"0","openInterest":"0","indexUpdatedAt":"1794407119"}
+LOADTEST  0x7d19508851d5397fd0e3b648fe30982bf86268a5 {"markPriceOk":false,"markPrice":"0","openInterest":"0","indexUpdatedAt":"1794407120"}
+LOADTEST  0xf909076d4abc6e7993e499b533e2b2a8cfbe4dd4 {"markPriceOk":true,"markPrice":"3763999647452000000000","openInterest":"0","indexUpdatedAt":"1794407120"}
+LOADTEST  0xb738977760660b455b0ef9e7fa3eec0205c1292d {"markPriceOk":false,"markPrice":"0","openInterest":"0","indexUpdatedAt":"1794407119"}
+LOADTEST  0x7982b98b08f9956e6665366ae93c466b44b044a5 {"markPriceOk":false,"markPrice":"0","openInterest":"0","indexUpdatedAt":"1794407119"}
+WTI       0x5883b17cb2b37d601e68d8ac6f744dc4eea94553 {"markPriceOk":true,"markPrice":"86986665200000000000","openInterest":"1080000000000000000","indexUpdatedAt":"1794679848"}
+XAG       0x512dc81988d7670de0781a0de966530a3a78fb99 {"markPriceOk":true,"markPrice":"48252924600000000000","openInterest":"50330000000000000000","indexUpdatedAt":"1794679848"}
+XAU       0x4e66263637395f4f2edbaf87133dd5afd4be2562 {"markPriceOk":true,"markPrice":"3847901690000000000000","openInterest":"243200000000000000","indexUpdatedAt":"1794679849"}
+GOOGL     0xaa7f246114de23d0e261f01ffe74c6b632e277ae {"markPriceOk":true,"markPrice":"290552971000000000000","openInterest":"285000000000000000","indexUpdatedAt":"1794679849"}
+TSLA      0xe3458a654ce3d839b96581fb46b40a0c37d4cd61 {"markPriceOk":true,"markPrice":"385155008000000000000","openInterest":"274000000000000000","indexUpdatedAt":"1794679850"}
+HYNX      0xca1b3a88f44bfadc8bf84c405bd5783f37c7cd50 {"markPriceOk":true,"markPrice":"867691952000000000000","openInterest":"75900000000000000","indexUpdatedAt":"1794679850"}
+MSTR      0xaf690c35d4254d63143d5f35b415b8228c4873b6 {"markPriceOk":true,"markPrice":"103329268000000000000","openInterest":"608000000000000000","indexUpdatedAt":"1794679851"}

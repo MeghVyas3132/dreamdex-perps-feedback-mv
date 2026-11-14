@@ -1,0 +1,16 @@
+2026-11-14T17:44:07.777Z graphql-transport-ws +474ms open
+2026-11-14T17:44:07.781Z graphql-transport-ws +477ms {"type":"ping","payload":{"message":"keepalive"}}
+2026-11-14T17:44:07.916Z graphql-transport-ws +612ms {"type":"connection_ack"}
+2026-11-14T17:44:07.916Z graphql-transport-ws +612ms {"type":"ping","payload":{"message":"keepalive"}}
+2026-11-14T17:44:08.070Z graphql-transport-ws +767ms {"type":"next","id":"1","payload":{"data":{"Market" : [{"lastPrice":"65981700000000000000000","lastTradeAt":"1794678245","markPrice":"65014053971856171000000"}]}}}
+2026-11-14T17:44:12.776Z graphql-transport-ws +5472ms {"type":"ping","payload":{"message":"keepalive"}}
+2026-11-14T17:44:17.781Z graphql-transport-ws +10477ms {"type":"ping","payload":{"message":"keepalive"}}
+2026-11-14T17:44:22.446Z graphql-transport-ws +15143ms close 1000
+2026-11-14T17:44:23.492Z graphql-ws +1044ms open
+2026-11-14T17:44:23.493Z graphql-ws +1045ms {"type":"ka"}
+2026-11-14T17:44:23.631Z graphql-ws +1183ms {"type":"connection_ack"}
+2026-11-14T17:44:23.632Z graphql-ws +1184ms {"type":"ka"}
+2026-11-14T17:44:23.786Z graphql-ws +1338ms {"type":"data","id":"1","payload":{"data":{"Market" : [{"lastPrice":"65981700000000000000000","lastTradeAt":"1794678245","markPrice":"65014053971856171000000"}]}}}
+2026-11-14T17:44:28.494Z graphql-ws +6046ms {"type":"ka"}
+2026-11-14T17:44:33.496Z graphql-ws +11048ms {"type":"ka"}
+2026-11-14T17:44:37.591Z graphql-ws +15143ms close 1000

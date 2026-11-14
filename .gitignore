@@ -1,0 +1,15 @@
+node_modules
+.env
+.playwright-mcp
+competitors
+sdk-src
+research/dreamdex-bot-kit
+research/docs
+research/docs2
+research/ctx7.txt
+research/home.html
+research/faucet.html
+research/links.txt
+research/sitemap.txt
+research/findings-*.md
+research/SECURITY-PRIVATE.md

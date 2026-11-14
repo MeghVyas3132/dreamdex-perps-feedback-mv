@@ -1,0 +1,17 @@
+campaign {
+ "distributor": "0x2ACD9EFdA721450906bfE1bef3edE269636E42C4",
+ "collateralToken": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+ "grantAmount": "1000000000000000000000",
+ "expiryDurationSec": "1209600",
+ "startsAt": "1790553600",
+ "endsAt": "1798477478",
+ "budgetRemaining": "70779000000000000000000000",
+ "claimsRemaining": "70779",
+ "leverageCapX": 20
+} now 1794678471
+fresh 0xc8Be4A41b8dacDB848Cae2794949cBBc9A4Ab78d eligibility {"eligible":true,"grantAmount":"1000000000000000000000"} claim() sim: REVERT 0x3e31dcc2
+fresh 0xd4BA9760B1333113eb74CB7Ef3d76EBcfb53adef eligibility {"eligible":true,"grantAmount":"1000000000000000000000"} claim() sim: REVERT 0x3e31dcc2
+fresh 0x4e5f5335CC71393fC37C7f48C694A12e078dA007 eligibility {"eligible":true,"grantAmount":"1000000000000000000000"} claim() sim: REVERT 0x3e31dcc2
+distributor code bytes 176 contains 3e31dcc2: false
+EIP1967 impl slot 0x0000000000000000000000009657f0fd53efc01cd108d93c835bb4b517732b43
+impl code bytes 12785 contains 3e31dcc2: true
