@@ -1,7 +1,7 @@
 #!/bin/sh
 # Read-only probes of the dreamDEX REST API (staging/testnet + mainnet) for perps coverage and error contract.
 B=${BASE_URL:-https://stg.api.dreamdex.io/v0}
-p() { echo "=== $1"; curl -s -D - -o /tmp/claude-501/-Users-meghvyas-Desktop-Larp/8942c846-e668-47ff-8614-fbd2b936c989/scratchpad/body "$1" ${2:+-H "$2"} | grep -iE "^(HTTP|error-name|content-type)"; head -c ${3:-600} /tmp/claude-501/-Users-meghvyas-Desktop-Larp/8942c846-e668-47ff-8614-fbd2b936c989/scratchpad/body; echo; }
+p() { echo "=== $1"; curl -s -D - -o "${TMPDIR:-/tmp}/dreamdex-body" "$1" ${2:+-H "$2"} | grep -iE "^(HTTP|error-name|content-type)"; head -c ${3:-600} "${TMPDIR:-/tmp}/dreamdex-body"; echo; }
 date -u
 p "$B/markets" "" 3000
 p "$B/currencies" "" 1500
